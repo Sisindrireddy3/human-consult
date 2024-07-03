@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    height: 5000px;
+    height: 5500px;
     width: 100%;
     background-color:#FDF5E8;
     font-family: sans-serif;
@@ -436,8 +436,50 @@ text-align: center;
  .icons{
     text-align: center;
     margin-top: 80px;
-    font-size: 40px;
+    font-size: 40px; 
     cursor: pointer;
-   
     
  }
+ .blue{
+    margin-top: 120px;
+    height:500px;
+    width: 100%;
+    background-color:rgb(30, 30, 88);
+    display: flex;
+    column-gap: 110px;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+.blue h1{
+    color: white;
+}
+.blue p{
+    color: white;
+}
+.blue input{
+    padding: 20px 20px;
+    width: 300px;
+    border-radius: 20px;
+    background-color:rgb(235, 235, 243);
+    border-color: white;
+}
+.blue a{
+    border: 1px solid;
+    padding: 10px 10px;
+    border-color: rgb(58, 52, 145);
+    border-radius: 10px;
+    background-color: white;
+}
+.link{
+    display: flex;
+    column-gap: 60px;
+    margin-top: 30px;
+}
+.link :hover{
+    background-color: rgb(104, 104, 158);
+}
+.center{
+    text-align: center;
+    color: white;
+    margin-top:-250px;
+}

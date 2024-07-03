@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 5000px;
+    width: 100%;
+    background-color:#FDF5E8;
+    font-family: sans-serif;
+}
+.container{
+    height: 500px;
+    width: 500px;
+    background-color: aquamarine;
+    margin-top: 200px;
+    background-image: url(images/home3pic1);
+    background-size: cover;
+    margin-left: 700px;
+    border-radius: 30px;
+    margin-top: -330px;
+}
+.main{
+    margin-top: 100px;
+    margin-left: 120px;
+}
+.main h1{
+    margin-top: 30px;
+}
+.main p{
+    margin-top: 30px;
+}
+.discover{
+    margin-top: 50px;
+    display: flex;
+    margin-left: 120px;   
+}
+.discover p{
+    margin-left: 30px;
+}
+.disc1 button{
+    height: 40px;
+    width: 120px;
+    background-color: rgb(3, 3, 77);
+    color: white;
+    border-radius: 20px;
+}
+.disc2 p{
+    cursor: pointer;
+    margin-top: 10px;
+}
+.c1{
+    height: 70px;
+    width: 190px;
+    background-color: white;
+    border-radius: 20px;
+    margin-left: 330px;
+    display: flex;
+    
+    
+}
+.c1 h3{
+    margin-top:25px;
+    margin-left: 30px;
+}
+.c1 p{
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.c2{
+    height: 200px;
+    width: 290px;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 300px;
+    display: flex; 
+    
+}
+.c21{
+    margin-left: 20px;
+}
+.c22{
+    margin-top: 50px;
+}
+.c22 span{
+    font-size: 90px;
+}
+.c22 button{
+    background-color: orange;
+    height: 30px;
+    width: 120px;
+    border-radius: 10px;
+    border: 0;
+
+} 
